@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5e1ff;
+    color: #4a4a4a; 
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: #ff69b4; 
+    
+  }
+  
+  
+
+
+
+  .small-text {
+    font-size: 0.9em; 
+    margin-top: 30px; 
+    color: white; 
+    position: absolute;
+    bottom: 20px; 
+  }
+  
+  @keyframes moveHearts {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .heart {
+    color: red;
+    animation: moveHearts 2s infinite; 
+  }
+  
+
+  #calendar {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4a4a4a; 
+  }
+  #nextPageBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
